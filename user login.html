@@ -1,0 +1,51 @@
+<DOCTYPE html>
+<html>
+<head>
+    <style>
+        .login-form {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #b19a9a;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="submit"] {
+            background-color: #88040f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+            </style>
+	<title>Login Form</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<div class="login-form">
+		<h2>Login Form</h2>
+		<form>
+			<label for="username">Username:</label>
+			<input type="text" id="username" name="username"><br><br>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password"><br><br>
+			<input type="submit" value="Login">
+		</form>
+	</div>
+</body>
